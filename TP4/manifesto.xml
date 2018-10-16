@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifesto>
+    <meta>
+        <identificador>
+            web2018::A78587::TP4
+        </identificador>
+        <titulo>
+            Manifesto
+        </titulo>
+        <subtitulo>
+            Relatório referente ao TPC4 da UC de DAW de MIEI 2018 
+        </subtitulo>
+        <dataInicio>
+            10-09-2018
+        </dataInicio>
+        <dataFim>
+            15-09-2018
+        </dataFim>
+        <supervisor>
+            <nome> José Carlos Ramalho </nome>
+            <email> jcr@di.uminho.pt </email>
+            <website> http://www.di.uminho.pt/~jcr </website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>
+                Ricardo Jorge Marques Peixoto
+            </nome>
+            <email>
+                a78587@alunos.uminho.pt
+            </email>
+            <identificador>
+                A78587
+            </identificador>
+            <website>https://github.com/Ricardo1597/Desenvolvimento-de-Aplicacoes-Web</website>
+            <foto path="boneco.png"/>
+        </membro>
+    </equipa>
+    <resumo>
+        <para>
+            Este projeto baseia-se na criação de um servidor em <bold>Java Script</bold> capaz de navegar por vários ficheiros através 
+            da analise do link do browser.
+        </para>
+        <para>
+            Um dos principais objetivos deste projeto passa pela criação de vários ficheiros jason. Cada um destes ficheiros contém toda a informação 
+            referente a uma região de Portugal.
+            Outro dos objetivos trata-se da criação de um servidor, utilizando uma porta, de tal forma que seja possivel aceder ao "index.html" assim como todos
+            os ficheiros html das regiões de Portugal através dessa porta. Para tal é necessário fazer um parse ao link de modo a saber qual o ficheiro html 
+            pretendido e abri-lo.
+        </para>
+    </resumo>
+    <resultados>
+        <resultado url="manifesto-tp4.xml">
+            manifesto-tp4.xml
+        </resultado>
+    </resultados>
+</manifesto>
